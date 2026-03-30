@@ -103,3 +103,19 @@ $$
 $$
 
 Where $\theta_j^k$ denotes the evaluation metric on test set $\Delta \mathcal{G}_j$ using entity set $\mathcal{E}_k$.
+
+## Reproducing the Results
+
+To obtain the results reported in the paper, the following steps need to be performed:
+
+1. Install the CKGE method repository following the directions specified. The CKGE methods used can be found here:
+    - [LKGE, EMR, EWC and finetune](!https://github.com/nju-websoft/LKGE)
+    - [incDE](https://github.com/seukgcode/IncDE)
+    - [FastKGE](https://github.com/seukgcode/FastKGE)
+    - [FMR](https://github.com/lijingzhu1/FMR)
+    - [ETT-CKGE](https://github.com/lijingzhu1/ETT-CKGE)
+    - [DebiasedKGE](https://anonymous.4open.science/r/DebiasedKGE)
+    - [SAGE](https://github.com/yayayacc/SAGE)
+2. Move the 8 benchmark datasets (found in the datasets directory from this repository) inside the *data* directory.
+3. Replace, as explained in the previous section, the different parts of the provieded scripts to obtain the corrected evaluation protocol.
+4. Run the experiments with the best hyperparameter configuration reported in each repository.
