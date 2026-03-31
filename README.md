@@ -109,7 +109,7 @@ Where $\theta_j^k$ denotes the evaluation metric on test set $\Delta \mathcal{G}
 To obtain the results reported in the paper, the following steps need to be performed:
 
 1. Install the CKGE method repository following the directions specified. The CKGE methods used can be found here:
-    - [LKGE](!https://github.com/nju-websoft/LKGE), also including EMR, EWC and finetuning
+    - [LKGE](https://github.com/nju-websoft/LKGE), also including EMR, EWC and finetuning
     - [incDE](https://github.com/seukgcode/IncDE)
     - [FastKGE](https://github.com/seukgcode/FastKGE)
     - [FMR](https://github.com/lijingzhu1/FMR)
