@@ -119,3 +119,5 @@ To obtain the results reported in the paper, the following steps need to be perf
 2. Move the 8 benchmark datasets (found in the datasets directory from this repository) inside the *data* directory.
 3. Replace, as explained in the previous section, the different parts of the provieded scripts to obtain the corrected evaluation protocol.
 4. Run the experiments with the best hyperparameter configuration reported in each repository.
+
+To **facilitate reproducing the results** in the case of future changes in the repositories discussed above, we also included in this repository, inside the *experiments* directory, all the repositories used in the manuscript with already the already corrected evaluation protocol. To obtain the results, you need to also copy the 8 benchmark datasets inside the *data* directory of each of the CKGE methods, and run the *run_experiments.sh* script.
